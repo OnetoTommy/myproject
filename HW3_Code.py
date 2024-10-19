@@ -205,6 +205,21 @@ for i in range(optimal_cluster):
     i += 1
 print(data_names)
 
+##mean value for different clusters
+#      cluster   mean_Age  mean_Income  mean_Spending
+# 0  cluster_0  54.083333    47.083333      41.683333
+# 1  cluster_1  32.700000    96.500000      87.800000
+# 2  cluster_2  24.300000    26.200000      77.450000
+# 3  cluster_3  46.529412    82.588235      19.294118
+# 4  cluster_4  27.000000    56.657895      49.131579
+# 5  cluster_5  32.760000    76.960000      80.800000
+# Summary for different clusters
+# Cluster 0: Older age, lower income, lower spending.
+# Cluster 1: Younger age, higher income, higher spending.
+# Cluster 2: Younger age, lower income, lower spending.
+# Cluster 3: Middle-aged, moderate income, lower spending.
+# Cluster 4: Younger age, moderate income, moderate spending.
+# Cluster 5: Younger age, moderate income, higher spending.
 
 
 
